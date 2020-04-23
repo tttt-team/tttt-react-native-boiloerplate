@@ -1,0 +1,30 @@
+{
+  "name": "xxx",
+  "displayName": "屏幕1",
+  "viewPort": {
+    "direction": "h",
+    "left": {
+      "size": "200",
+      "viewPort": {
+        "direction": "v",
+        "top": {
+          "size": "80"
+        },
+        "bottom": {}
+      }
+    },
+    "right": {
+      "size": "auto",
+      "pages": "xxxxx-page-route-id"
+    }
+  },
+  "popups": [{
+    "name": "alert",
+    "displayName": "警告",
+    "position": "center"
+  }, {
+    "name": "menu",
+    "displayName": "菜单",
+    "position": "left"
+  }]
+}

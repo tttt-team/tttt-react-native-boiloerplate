@@ -1,0 +1,64 @@
+{
+  "name": "",
+  "displayName": "根",
+  "type": "switch",
+  "children": {
+
+    "login": {
+      "name": "Login",
+      "displayName": "登陆",
+      "type": "screen",
+      "children": {}
+    },
+    "main": {
+      "name": "Main",
+      "displayName": "主下选项卡导航",
+      "type": "tab",
+      "children": {
+        "index": {
+          "name": "Index",
+          "displayName": "首页",
+          "type": "screen",
+          "children": {}
+        },
+        "aliplayer": {
+          "name": "AliPlayer",
+          "displayName": "阿里云播放器",
+          "type": "screen",
+          "children": {}
+        },
+        "alipush": {
+          "name": "AliPush",
+          "displayName": "阿里云直播",
+          "type": "screen",
+          "children": {}
+        },
+        "rongim": {
+          "name": "RongIM",
+          "displayName": "融云IM路由",
+          "type": "stack",
+          "children": {
+            "c-list": {
+              "name": "CList",
+              "displayName": "会话列表",
+              "type": "screen",
+              "children": {}
+            },
+            "c-sub-list": {
+              "name": "CSubList",
+              "displayName": "会话子列表",
+              "type": "screen",
+              "children": {}
+            },
+            "c-item": {
+              "name": "CItem",
+              "displayName": "会话",
+              "type": "screen",
+              "children": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}
