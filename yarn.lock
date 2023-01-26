@@ -5388,10 +5388,10 @@ react-refresh@^0.4.0:
   resolved "https://registry.npm.taobao.org/react-refresh/download/react-refresh-0.4.2.tgz#54a277a6caaac2803d88f1d6f13c1dcfbd81e334"
   integrity sha1-VKJ3psqqwoA9iPHW8Twdz72B4zQ=
 
-react-router-native@^5.1.2:
+react-router-native@5.1.2:
   version "5.1.2"
-  resolved "https://registry.npm.taobao.org/react-router-native/download/react-router-native-5.1.2.tgz#1ef02785cb396f2b4234b85ab32e551c191ff41b"
-  integrity sha1-HvAnhcs5bytCNLhasy5VHBkf9Bs=
+  resolved "https://registry.yarnpkg.com/react-router-native/-/react-router-native-5.1.2.tgz#1ef02785cb396f2b4234b85ab32e551c191ff41b"
+  integrity sha512-0dOsu3qe6CRqLVjgoYvjQrOLzDwS3Z6oWiiKFswEohQ/fLXx/w9168ay7b/q855SrOZdk1ZwcvT3Xdc2Ki29Xg==
   dependencies:
     prop-types "^15.6.1"
     react-router "5.1.2"
@@ -6406,9 +6406,9 @@ typescript@3.7.3:
   integrity sha1-s2hAZooWRYpwJbnqv60Rtmq4XGk=
 
 ua-parser-js@^0.7.18:
-  version "0.7.20"
-  resolved "https://registry.npm.taobao.org/ua-parser-js/download/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
-  integrity sha1-dScXi4L2pioPJD0flP0w4+PCEJg=
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 uglify-es@^3.1.9:
   version "3.3.9"
